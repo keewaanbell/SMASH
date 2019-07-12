@@ -1,7 +1,46 @@
 #huh{
-	font-style: italic;
-	font-size: 25px
+	font-style: bold;
+	font-size: 35px;
 }
 body{
-	background-image:linear-gradient(to bottom, orange,purple);
+	background-image:linear-gradient(to bottom, orange,purple); height: 97.55vh
+
+}
+#ahhh{
+	width:600px;
+	float: left;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: purple;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 14px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: orange;
+}
+
+.active {
+  background-color:#4CAF50;
+}
+.pew{
+	text-align: center;
+}
+#click{
+	text-align: center;
 }
